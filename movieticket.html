@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+
+        <fieldset>
+            <legend>book the movie ticket now!</legend>
+            <label for="">Name:</label>
+            <input type="text">
+            <br><br>
+            <label for="">Phone number:</label>
+            <input type="number" minlength="10">
+            <br><br>
+            <label for="">select movie:</label>
+            <input type="text" list="select movie">
+            <datalist id="select movie">
+                <option>3idiot</option>
+                <option>dabangg</option>
+                <option>sanam re</option>
+                <option>lagaan</option>
+                <option>tiger zinda hai</option>
+
+            </datalist>
+            <br><br>
+            <label for="">select seat:</label>
+            <input type="text" list="select seat">
+            <datalist id="select seat">
+                <option>silver</option>
+                <option>platinum</option>
+                <option>gold</option>
+                <option>gold aboandance</option>
+                <option>diamond</option>
+            </datalist>
+            <br><br>
+
+            <label for="">select food package:</label>
+            <input type="text" list="select food package">
+            <datalist id="select food package">
+                <option>snacks</option>
+                <option>starter</option>
+                <option>veg combo</option>
+                <option>non veg combo</option>
+                <option>chinese combo</option>
+            </datalist>
+            <br><br>
+            <label for="date">select date:</label>
+            <input type="date" id="date">
+            <br><br>
+            <label for="movie price">movie price</label>
+   <select id=" movie price">
+                <option>price</option>
+                <option>silver-399</option>
+                <option>platinum-549</option>
+                <option>gold-749</option>
+                <option>gold aboandance-999</option>
+                <option>diamond-1299</option>
+            </select>
+            <br><br>
+            <button type="reset">reset</button> <button type="submit">pay now</button>
+<br><br>
+<details>
+    <summary>terms and conditions apply</summary>
+    <p>The online booking is non-transferable and cannot be further sold. To collect the tickets the user must present the credit/debit card that was used to book the tickets in that particular cinema. The user has to carry the printout of the confirmation mail.</p>
+</details>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
