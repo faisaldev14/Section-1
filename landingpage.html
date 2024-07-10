@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .hero-section{
-            
+        .hero-section {
+            border: 2px solid red;
+            height: 60vh;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+            background-size: cover;
+            /* background-position: bottom; */
+            color: white;
+        }
+
+        }
+
+        .hero-title {
+            font-size: 60px;
+            margin: 0;
+
+        }
+
+        .hero-description {
+            font-size: 20px;
+        }
+
+        .hero-btn {
+            background-color: white;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            border: 2px solid black;
         }
     </style>
 </head>
+
 <body>
     <header>
 
@@ -17,7 +48,12 @@
     <main>
         <article>
             <section class="hero-section">
-
+                <h1 class="hero-title">website title</h1>
+                <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+                    repellendus dignissimos provident
+                    modi iure minima fuga beatae nesciunt, repudianda maiores sint labore ullam omnis quaerat quas! Iure
+                    sint quia eveniet?</p>
+                <button class="hero-btn">learn More</button>
             </section>
         </article>
     </main>
@@ -25,4 +61,5 @@
 
     </footer>
 </body>
+
 </html>
